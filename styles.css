@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gabriela&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+p{
+    font-family: "Gabriela", serif;
+    text-align: center;
+
+}
+
+.navigation{
+    display: flex;
+    gap: 5vw;
+}
+.nav_link{
+    color: black;
+    font-size: 35px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.cat{
+    width: 40vw;
+    height: auto;
+    margin-top: 4vh;
+}
+
+h1{
+    text-transform: uppercase;
+    margin-top: 0;
+    font-size: 100px;
+    font-family: "Open Sans", sans-serif;
+}
+
